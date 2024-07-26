@@ -119,19 +119,19 @@ ANTI_BAD: process.env.ANTI_BAD || false  ,  //true or false
 AUTO_REACT:  process.env.AUTO_REACT  || false  ,     //true or false
 //////////////////////////////////////////////////////////
 
-AUTO_TYPING:  process.env.AUTO_TYPING  || false  , //true or false
+AUTO_TYPING:  process.env.AUTO_TYPING  || true  , //true or false
 //////////////////////////////////////////////////////////
 
-AUTO_RECORDING:  process.env.AUTO_RECORDING  || false  ,  //true or false
+AUTO_RECORDING:  process.env.AUTO_RECORDING  || true  ,  //true or false
 //////////////////////////////////////////////////////////
 
-AUTO_READ:  process.env.AUTO_READ  || false  , //true or false
+AUTO_READ:  process.env.AUTO_READ  || true  , //true or false
 //////////////////////////////////////////////////////////
 
 AUTO_BIO:  process.env.AUTO_BIO  || false  ,        //true or false
 //////////////////////////////////////////////////////////
 
-ALWAYS_ONLINE:  process.env.ALWAYS_ONLINE  || false  ,  //true or false
+ALWAYS_ONLINE:  process.env.ALWAYS_ONLINE  || true  ,  //true or false
 //////////////////////////////////////////////////////////
 
 HEROKU_API_KEY: process.env.HEROKU_API_KEY === undefined ? '' : process.env.HEROKU_API_KEY,    
@@ -155,7 +155,7 @@ ANTI_LINK: process.env.ANTI_LINK || true  , //true or false
 BOT_DETECT: process.env.BOT_DETECT === undefined ? 'false' : process.env.BOT_DETECT,  //true or false    
 //////////////////////////////////////////////////////////
 
-ANTI_BOT: process.env.ANTI_BOT || false  , //true or false
+ANTI_BOT: process.env.ANTI_BOT || true  , //true or false
 //////////////////////////////////////////////////////////
 
 ANTI_CALL: process.env.ANTI_CALL || false  , //true or false
@@ -164,16 +164,16 @@ ANTI_CALL: process.env.ANTI_CALL || false  , //true or false
 ALIVE: process.env.ALIVE || `default`,     
 //////////////////////////////////////////////////////////
 
-AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || false  ,     //true or false
+AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || true  ,     //true or false
 //////////////////////////////////////////////////////////
 
-AUTO_STICKER: process.env.AUTO_STICKER || false  , //true or false
+AUTO_STICKER: process.env.AUTO_STICKER || true  , //true or false
 //////////////////////////////////////////////////////////
 
 WELCOME:  process.env.WELCOME  || false ,   //true or false
 //////////////////////////////////////////////////////////
 
-ANTI_DELETE : process.env.ANTI_DELETE || false , //true or false
+ANTI_DELETE : process.env.ANTI_DELETE || true , //true or false
 //////////////////////////////////////////////////////////
 
 DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO    
