@@ -147,7 +147,7 @@ LOGO: process.env.LOGO || `https://telegra.ph/file/4dc85a29bee9f0fd24c71.jpg` , 
 LANG:  process.env.LANG || 'EN' , //URDU OR EN
 //////////////////////////////////////////////////////////
 
-PREFIX: process.env.PREFIX || ':' , //PREFIX, LEAVE IT DEFAULT OTHERWISE BUTTON WILL NOT WORK
+PREFIX: process.env.PREFIX || '.' , //PREFIX, LEAVE IT DEFAULT OTHERWISE BUTTON WILL NOT WORK
 //////////////////////////////////////////////////////////
 
 WORK_TYPE: process.env.WORK_TYPE || 'private' , //public or private
